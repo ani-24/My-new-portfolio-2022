@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
 
 * {
   margin: 0;
@@ -8,6 +8,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Sen", sans-serif;
 }
 
 /*navbar*/
@@ -71,7 +75,6 @@ html {
 }
 
 .headings {
-  font-family: "Poppins", sans-serif;
   font-size: 3rem;
   text-align: center;
   margin: 40px 0px;
@@ -127,7 +130,7 @@ html {
 }
 
 #pic img {
-  height: 550px;
+  height: 450px;
 }
 
 #intro {
@@ -141,7 +144,6 @@ html {
 #intro h3 {
   font-size: 2rem;
   margin-bottom: 20px;
-  text-transform: uppercase;
 }
 
 /* Portfolio Section */
@@ -239,19 +241,17 @@ html {
 .input {
   padding: 12px;
   margin: 15px;
-  width: 30%;
+  width: 600px;
   border: none;
   outline: none;
   background: rgba(0, 0, 0, 0.3);
-  min-width: 600px;
   color: white;
-  /* border-radius: 50px; */
+  font-family: inherit;
 }
 
 #msg {
   padding: 10px;
   margin: 15px;
-  width: 20%;
   border: none;
   outline: none;
   background: rgba(0, 0, 0, 0.2);
@@ -265,6 +265,8 @@ html {
   border: none;
   outline: none;
   border-radius: 15px;
+  font-family: inherit;
+  transition: 100ms ease-out;
 }
 
 #send:hover {
